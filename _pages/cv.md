@@ -5,7 +5,7 @@ author_profile: true
 comments: true
 ---
 
-<a style="line-height: 1.5;" href="https://www.cristianrohr.github.io/CR-cv.pdf"><span style="color: #333333;"><span style="font-size: medium;">Also available in PDF format.</span></span></a>
+<a style="line-height: 1.5;" href="www.cristianrohr.github.io/CR-cv.pdf"><span style="color: #333333;"><span style="font-size: medium;">Also available in PDF format.</span></span></a>
 
 # Cristian Rohr
 Licenciado en Bioinformática
