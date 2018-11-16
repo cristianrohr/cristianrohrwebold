@@ -5,21 +5,15 @@ author_profile: true
 comments: true
 ---
 
-<a style="line-height: 1.5;" href="www.cristianrohr.github.io/CR-cv.pdf"><span style="color: #333333;"><span style="font-size: medium;">Also available in PDF format.</span></span></a>
-
-# Cristian Rohr
-Licenciado en Bioinformática
+### Descargar en format PDF
+<a style="line-height: 1.5;" href="cristianrohr.github.io/CR-cv.pdf"><span style="color: #333333;"><span style="font-size: medium;">Descargar PDF.</span></span></a>
 
 <div id="webaddress">
-<i class="fa fa-envelope"></i> <a href="mailto:cristian.rohr@indear.com">cristian.rohr@indear.com</a>
-|
-<i class="fa fa-envelope"></i> <a href="mailto:cristianrohr768@gmail.com">cristianrohr768@gmail.com</a>
+<i class="fa fa-envelope"></i> <a href="mailto:cristianrohr768@gmail.com">cristianrohr768@gmail.com</a> | <i class="fa fa-envelope"></i> <a href="mailto:cristian.rohr@heritas.com.ar">cristian.rohr@heritas.com.ar</a>
 </div>
 
 <div id="webaddress">
-<i class="fa fa-google"></i> <a href="http://scholar.google.com/citations?user=hyLMQvAAAAAJ&hl">http://scholar.google.com/citations?user=hyLMQvAAAAAJ&hl</a>
-|
-<i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/cristianrohrbio">https://www.linkedin.com/in/cristianrohrbio</a>
+<i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/cristianrohrbio">https://www.linkedin.com/in/cristianrohrbio</a> | <i class="fa fa-google"></i> <a href="http://scholar.google.com/citations?user=hyLMQvAAAAAJ&hl">http://scholar.google.com/citations?user=hyLMQvAAAAAJ&hl</a>
 </div>
 
 ## Antecedentes Laborales
