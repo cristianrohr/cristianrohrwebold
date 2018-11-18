@@ -106,9 +106,10 @@ author:
   location         : "Granada, España."
   email            : "cristianrohr768@gmail.com"
   linkedin         : "cristianrohrbio"
-  facebook         : "cristian.rohr.5"
+#  facebook         : "cristian.rohr.5"
   gitlab           : "cristianrohr"
   github           : "cristianrohr"
+  twitter          : "cristianrohr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
