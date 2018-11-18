@@ -4,6 +4,14 @@ date:   2018-11-16
 layout: single
 author_profile: true
 comments: true
+tags:
+  - blog
+  - web
+  - tecnologia
+  - programación
+categories:
+  - blog
+  - programación
 ---
 
 Para mi primer post voy a comentar un poco las razones que me llevaron a hacerlo. Lo más importante es que hace mucho tiempo tenía ganas de tener mi blog sobre bioinformática, por un lado porque me apasiona y por otro lado me parece un recurso util que le puede servir a muchas personas de la misma forma que a mi me han servido muchos blogs y páginas.

@@ -4,6 +4,15 @@ date:   2018-11-18
 layout: single
 author_profile: true
 comments: true
+tags:
+  - datascience
+  - tecnologia
+  - programación
+  - R
+  - markdown
+categories:
+  - datascience
+  - R
 ---
 
 Mantener el CV es una de esas tareas tanto necesarias, como en muchos casos tediosas, y que generalmente consumen mucho mas del tiempo del que queremos y deberíamos.
@@ -13,10 +22,10 @@ Con motivo de la creación del blog decidí una vez más realizar la actualizaci
 
 Finalmente despues de un rato de búsqueda decidí usar como base el template de [isteves](https://github.com/isteves/resume) 
 
-![istevesCV](https://github.com/isteves/resume/blob/master/images/cv-pdf.PNG  "istevesCV")
+![iecv](/assets/img/cv_ie.jpg)
 
 Lo estuve modificando bastante, agregando estilos nuevos de latex, y realizando la escritura mezclando latex y markdown. El resultado final se puede ver en [este repo](https://github.com/cristianrohr/CV_Rmarkdown).
 
-![crcv](/assets/imgages/posts/new_CR.png)
+![crcv](/assets/img/new_CR.png)
 
 Las instrucciones para modicar el template estan en el repo, espero que les sea de utilidad.
