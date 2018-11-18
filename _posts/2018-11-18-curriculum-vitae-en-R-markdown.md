@@ -17,6 +17,6 @@ Finalmente despues de un rato de búsqueda decidí usar como base el template de
 
 Lo estuve modificando bastante, agregando estilos nuevos de latex, y realizando la escritura mezclando latex y markdown. El resultado final se puede ver en [este repo](https://github.com/cristianrohr/CV_Rmarkdown).
 
-[![cristianrohr_CV](https://github.com/cristianrohr/CV_Rmarkdown/blob/master/images/new_CR.png)](cristianrohr_CV)
+![crcv](/assets/imgages/posts/new_CR.png)
 
 Las instrucciones para modicar el template estan en el repo, espero que les sea de utilidad.
