@@ -24,8 +24,6 @@ Con motivo de la creación del blog decidí una vez más realizar la actualizaci
 
 Finalmente despues de un rato de búsqueda decidí usar como base el template de [isteves](https://github.com/isteves/resume) 
 
-![iecv](/assets/img/cv_ie.jpg)
-
 Lo estuve modificando bastante, agregando estilos nuevos de latex, y realizando la escritura mezclando latex y markdown. El resultado final se puede ver en [este repo](https://github.com/cristianrohr/CV_Rmarkdown).
 
 ![crcv](/assets/img/new_CR.png)
