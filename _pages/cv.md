@@ -6,10 +6,12 @@ comments: true
 classes: wide
 ---
 
-### Descargar en format PDF
+# Descargar en format PDF
+---
 <a style="line-height: 1.5;" href="../CV-CristianRohr.pdf"><span style="color: #333333;"><span style="font-size: medium;">Descargar PDF.</span></span></a>
 
 # CV Resumido
+---
 
 # Experiencia Profesional 
 

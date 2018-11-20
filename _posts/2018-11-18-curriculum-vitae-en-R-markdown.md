@@ -15,6 +15,8 @@ categories:
   - R
 ---
 
+# Crear y mantener un CV
+
 Mantener el CV es una de esas tareas tanto necesarias, como en muchos casos tediosas, y que generalmente consumen mucho mas del tiempo del que queremos y deberíamos.
 En mi caso particular use muchísimos modelos diferentes, y los hice en diferentes plataformas, desde el famoso editor de texto de la marca de las ventanas, markdown, latex, editores online y no se si no me olvido alguna otra version. Mis ultimas versiones fueron en Latex con el template [Awesome CV](https://github.com/posquit0/Awesome-CV).
 
@@ -28,4 +30,42 @@ Lo estuve modificando bastante, agregando estilos nuevos de latex, y realizando 
 
 ![crcv](/assets/img/new_CR.png)
 
-Las instrucciones para modicar el template estan en el repo, espero que les sea de utilidad.
+## Modificar el template
+
+El archivo `.Rmd` contiene el codigo para generar el CV. La cabecera del archivo en formato `yaml` contiene la información basica que debe ser modificada. Esta información se pasa al template de latex `cv-latex.tex`, donde debería modificarse la forma o el orden en el que se muestra esta información.
+
+El resto del documento esta escrito mezclando markdown con latex.
+
+```kramdown
+---
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    template: cv-latex.tex
+geometry: margin=.7in
+
+#bibliography: citations.bib
+#nocite: '@*'
+
+title: "Curriculum Vitae"
+author: Cristian Rohr
+name: Cristian
+lastname: Rohr
+jobtitle: Bioinformático 
+address: Barrichuelo de Cartuja N°15 Granada, España
+
+fontawesome: yes
+email: cristianrohr768@gmail.com - cristian.rohr@heritas.com.ar
+github: your_github
+linkedin: cristianrohrbio
+twitter: your_twitter
+phone: "+34 667283297"
+web: cristianrohr.github.io
+updated: no
+
+keywords: Data Science, Bioinformatics
+
+fontsize: 10pt # Valores validos entre 10 y 12pt
+urlcolor: NavyBlue
+---
+```

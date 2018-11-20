@@ -6,7 +6,7 @@ author_profile: true
 comments: true
 ---
 
-Recopilación de artículos referentes a Ciencia de Datos y Bioinformática.
+En **metadata** voy a intentar escribir sobre ciencia de datos en general,  bioinformática y algo más...
 
 
 <ul>
