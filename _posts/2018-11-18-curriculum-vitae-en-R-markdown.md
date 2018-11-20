@@ -3,7 +3,6 @@ title:  "Curriculum vitae en Rmarkdown y latex"
 date:   2018-11-18
 layout: single
 author_profile: true
-comments: true
 tags:
   - datascience
   - tecnologia
@@ -13,6 +12,7 @@ tags:
 categories:
   - datascience
   - R
+comments: true
 ---
 
 # Crear y mantener un CV
