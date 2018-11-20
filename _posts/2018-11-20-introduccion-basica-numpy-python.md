@@ -19,6 +19,7 @@ comments: true
 Permite el manejo de datos de cualquier tipo simple. Las funciones operan elemento a elemento.
 
 
+Importamos las librerías necesarias. Por convención `numpy` se importa como `np`.
 ```python
 import numpy as np
 from math import sin
@@ -40,7 +41,7 @@ y
 
 
 
-con numpy
+con numpy las operaciones estan vectorizadas
 
 
 ```python
@@ -119,7 +120,7 @@ print(type(x[0][2]))
 
 
 ## Creación de vectores
-
+Opciones para la creacion de vectores con diferentes valores por defecto.
 
 ```python
 # Vector de ceros
@@ -144,7 +145,7 @@ print(type(x[0]))
     <class 'numpy.float64'>
 
 
-
+Creación de vectores secuenciales con funciones de numpy
 ```python
 # linspace(a, b, c) genera 'c' elementos entre 'a' y 'b', incluyendo a  'b'
 x = np.arange(5, 20, 2)
@@ -221,7 +222,7 @@ print(x[:,0])
 
 
 ## Slicing
-
+Acceso a los elementos de los vectores por slicing
 
 ```python
 print(x)
@@ -245,7 +246,7 @@ print(x[0:,2])
 
 
 ## Indexación indirecta
-
+Acceso a los elementos del vector por indexacion indirecta
 
 ```python
 x = np.arange(10)
@@ -294,7 +295,7 @@ print()
 
 
 ## Trabajando con arrays
-
+Operaciones comunes sobre vectores de numpy
 
 ```python
 x = np.arange(36)
@@ -320,7 +321,7 @@ print(x)
 
 
 ## Operaciones sobre vectores
-
+Los vectores de numpy tienen impleentadas diferentes operaciones comunes
 
 ```python
 x = np.arange(10)
