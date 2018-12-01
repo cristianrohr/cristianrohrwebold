@@ -1,6 +1,6 @@
 ---
 title: "Introducción a KNN con R"
-excerpt: El dataset Wisonsin Diagnostic Breast Cancer (WDBC) contiene 30 variables computadas a traves de la digitalización de imágenes conseguidas a través de punción aspirativa con aguja fina para el diagnóstico de tumores. El dataset contiene mas de 500 muestras, el reto es construir un clasificador capaz de reconocer si un lunar es maligno o benigno.
+excerpt: El dataset Wisconsin Diagnostic Breast Cancer (WDBC) contiene 30 variables computadas a traves de la digitalización de imágenes conseguidas a través de punción aspirativa con aguja fina para el diagnóstico de tumores. El dataset contiene mas de 500 muestras, el reto es construir un clasificador capaz de reconocer si un lunar es maligno o benigno.
 tags:
   - datascience
   - machine learning
@@ -358,7 +358,7 @@ La validación cruzada es una técnica utilizada para evaluar los resultados de 
 
 ![5fcv](/assets/images/validacion_cruzada.png)
 
-Como se puede observar, la idea es particionar el dataset en un número de folds, en el ejemplo 5, y en cada iteración se utilizan 4 folds para entrenar y el restante para testear, finalmente se promedian los errores y se calcula la varianza.
+Como se puede observar, la idea es particionar el dataset en un número de folds, en el ejemplo 5, y en cada iteración se utilizan 4 folds para entrenar y el restante para testear, finalmente se promedian los errores y se calcula la desviación estandar.
 
 ## Cross Validation
 
@@ -430,12 +430,12 @@ accuracy_list
 
 Podemos observer que la performance del algoritmo depende del fold, asi la accuracy va desde 96 a 98%.
 
-A continuación la accuracy media y la varianza para un valor de K = 5
+A continuación la accuracy media y la desviación estandar para un valor de K = 5
 
 
 ```R
 mean(unlist(accuracy_list))
-var(unlist(accuracy_list))
+sd(unlist(accuracy_list))
 ```
 
 
@@ -443,7 +443,7 @@ var(unlist(accuracy_list))
 
 
 
-6,2178123671511e-05
+0,007885311
 
 
 Bueno, esto ha sido todo por hoy. En los artículos futuros vamos a ir mejorando esto, y analizando otros datasets, hablaremos más de EDA, otras métricas para evaluar la performance del algoritmo, utilizaremos [caret](https://scikit-learn.org/stable/), un paquete de R muy bueno para machine learning, y también [scikit-learn](https://scikit-learn.org/stable/) en python.
