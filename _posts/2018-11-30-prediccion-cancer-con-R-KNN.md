@@ -389,7 +389,7 @@ str(data_folds)
 
 Ahora vamos a realizar la cross-validation. El codigo a continuación esta dentro de un ciclo FOR. En R no se suelen usar este tipo de ciclos, pero para simplificar sobre todo para posibles lectores que vengan de otros lenguajes, lo implementaremos de esa forma.
 
-Utilizaremos un valor de K = 9.
+Utilizaremos un valor de K = 5.
 
 
 ```R
@@ -430,7 +430,7 @@ accuracy_list
 
 Podemos observer que la performance del algoritmo depende del fold, asi la accuracy va desde 96 a 98%.
 
-A continuación la accuracy media y la varianza para un valor de K = 9
+A continuación la accuracy media y la varianza para un valor de K = 5
 
 
 ```R
