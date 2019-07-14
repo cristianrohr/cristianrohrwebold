@@ -6,7 +6,7 @@ author_profile: true
 comments: true
 ---
 
-En **metadata** voy a intentar escribir sobre ciencia de datos en general,  bioinformática y algo más...
+En **metadata** voy a intentar escribir sobre ciencia de datos en general, bioinformática y algo más...
 
 
 <ul>
@@ -24,4 +24,3 @@ En **metadata** voy a intentar escribir sobre ciencia de datos en general,  bioi
    {% include archive-single.html %}
   {% endfor %}
 </ul>
-
